@@ -108,4 +108,4 @@ int_data2 <- data_noNA %>%
 
 ggplot(int_data2, aes(interval, int_steps)) +
         geom_line() +
-        facet_grid(. ~ day_week)
+        facet_grid(. ~ day_week) 
